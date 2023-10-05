@@ -214,10 +214,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 5%;
-    background-color: var(--cor--background_claro);
+    background-color: none;
     font-family: var(--fonte--principal);
+    font-weight: 400;
+    font-style: italic;
     color: var(--cor--primaria);
-    font-weight: 600;
+    margin-bottom: 2%;
 }
 
 @media (max-width: 1200px) {

@@ -38,6 +38,45 @@
     object-fit: cover;
 }
 
+/* MEUS TRABALHOS/SOCIAL-MEDIA */
+
+.socialmedia__showcase {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.socialmedia__showcase li {
+    display: block;
+    float: left;
+}
+
+.socialmedia__photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.socialmedia__photo img {
+    opacity: 0.7;
+    width: 350px;
+    height: 350px;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    object-fit: cover;
+}
+
+.socialmedia__photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
 /* (GALERIA OPCAO 1) 
 .galeria__ilustracao {
     display: flex;
